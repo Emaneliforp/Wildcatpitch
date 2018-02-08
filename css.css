@@ -1,44 +1,42 @@
-﻿body
-{
-    background-color: aquamarine;
+﻿body {
 }
 .nav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #FF4040;
-    position: -webkit-sticky;
+    top:0;
+    overflow:hidden;
+    background-color: rgba(255,255,255, 0.3);
     position: sticky;
-    top: 0;
-    border-radius: 1vw;
+    position: -webkit-sticky;
 }
 
 li {
     float: left;
+    
 }
 
     li a {
         display: block;
-        color: white;
+        color: darkred;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 1.5vw;
-        padding-top: 1vh;
+        font-size: 1vw;
         font-family: Verdana;
+    }
+    #home {
+        padding-left: 35vw;
     }
     li img{
         padding-left: 1vw;
-        width: 3vw;
+        width: 1.5vw;
     }
     li c {
-        font-size: 2vw;
+        font-size: 1vw;
         vertical-align: top;
     }
 
         li a:hover {
-            background-color: #111;
+            background-color: rgba(0,0,0, 0.1);
         }
 #quest {
     position: fixed;
@@ -63,9 +61,13 @@ iframe {
 #page1 {
     background: linear-gradient(to bottom right, #FF4040, yellow);
     width: 100%;
-    height: 90vh;
-    position:static;
-    
+    height: 85vh;
+    border-radius:3vw;
+    column-count:2;
 
+}
+#page1 img{
+    width:50vw;
+    padding:0.5vw;
 }
 
